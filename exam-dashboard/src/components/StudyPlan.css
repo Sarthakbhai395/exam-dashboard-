@@ -1,0 +1,37 @@
+/* Responsive styles */
+@media (max-width: 768px) {
+    .study-plan-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .progress-container {
+      margin-left: 0;
+      margin-top: 16px;
+      max-width: 100%;
+      width: 100%;
+    }
+    
+    .schedule-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 12px;
+    }
+    
+    .schedule-blocks {
+      grid-template-columns: 1fr;
+    }
+    
+    .form-row {
+      flex-direction: column;
+    }
+    
+    .form-row .form-group {
+      width: 100%;
+    }
+    
+    .form-actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
